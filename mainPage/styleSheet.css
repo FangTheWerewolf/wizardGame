@@ -22,3 +22,9 @@ body {
     height: 100vh;
     overflow: hidden;
 }
+
+
+/* Add a background image of tv static or grain, then set the dimensions to the image,
+ and then add an opacity of like 50, 25% so that the background looks like its moving */
+
+ 
