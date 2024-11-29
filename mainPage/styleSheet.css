@@ -3,12 +3,22 @@
 html, body {
     margin: 0;
     padding: 0;
+    width: 816px;
+    height: 100vh;
     overflow: hidden;
+    width: 100vw;
+    height: 100vh;
 }
 
 
 body {
     background-image: url("dark-fantasy-wallpaper-dump-thanks-for-the-love-hope-v0-cerfow90x4rc1.jpg");
     background-repeat: no-repeat;
-    background-position: top;
+    background-size: 100% 100%;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    width: 816px;
+    height: 100vh;
+    overflow: hidden;
 }
