@@ -1,0 +1,1 @@
+// JavaScript for main page
