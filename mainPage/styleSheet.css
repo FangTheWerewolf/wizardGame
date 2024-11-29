@@ -11,6 +11,14 @@ html, body {
 }
 
 
+.staticGIF {
+background-image: url("mainPage/staticGlitchGIF.gif");
+opacity: 0.5;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+
 body {
     background-image: url("dark-fantasy-wallpaper-dump-thanks-for-the-love-hope-v0-cerfow90x4rc1.jpg");
     background-repeat: no-repeat;
@@ -27,4 +35,3 @@ body {
 /* Add a background image of tv static or grain, then set the dimensions to the image,
  and then add an opacity of like 50, 25% so that the background looks like its moving */
 
- 
