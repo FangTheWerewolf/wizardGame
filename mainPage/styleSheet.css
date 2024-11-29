@@ -1,5 +1,14 @@
 /* Style Sheet for main page of website */
 
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
 body {
     background-image: url("dark-fantasy-wallpaper-dump-thanks-for-the-love-hope-v0-cerfow90x4rc1.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
 }
