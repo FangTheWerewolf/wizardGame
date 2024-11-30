@@ -1,11 +1,31 @@
 /* Style Sheet for main page of website */
 
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    z-index: 4;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    text-align: center;
+    position: relative;
+    z-index: 4;
+    font-family:'Courier New', Courier, monospace;
+}
+
+
 html, body {
     margin: 0;
     padding: 0;
     overflow: visible;
     width: 100vw;
     height: 100vh;
+    z-index: 0;
 }
 
 body {
@@ -21,29 +41,21 @@ body {
 
 #staticGIF {
     background-image: url(staticGlitchGIF.gif);
+    position: absolute; /* Layer it over the background */
+    top: 0;
+    left: 0;
     width: 100vw;
     height: 100vh;
-    background-size: 100% 90%;
+    background-image: url(staticGlitchGIF.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
     z-index: 5;
-    opacity: 0.1;
+    opacity: 0.1; /* Makes the GIF transparent */
+    pointer-events: none; /* Prevents interaction with this layer */
+}
+
     /*For some reason, the image showed up with a dimension of 816 by 0.
     Lesson learned, always check in the console. */
-}
 
 /* Add a background image of tv static or grain, then set the dimensions to the image,
  and then add an opacity of like 50, 25% so that the background looks like its moving */
-
-h1 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 60px;
-    text-align: center;
-    z-index: 4;
-}
-
-h2 {
-    height: 40px;
-    text-align: center;
-    position: relative;
-    z-index: 4;
-    font-family:'Courier New', Courier, monospace;
-}
