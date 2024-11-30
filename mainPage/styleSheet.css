@@ -3,7 +3,7 @@
 html, body {
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow: visible;
     width: 100vw;
     height: 100vh;
 }
@@ -22,18 +22,30 @@ body {
     overflow: hidden;
 }
 
+#staticGIF {
+    background-image: url(staticGlitchGIF.gif);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    background-size: 100% 100%;
+    position: absolute;
+    z-index: 5;
+    /*For some reason, the image showed up with a dimension of 816 by 0.
+    Lesson learned, always check in the console. */
+}
 
 /* Add a background image of tv static or grain, then set the dimensions to the image,
  and then add an opacity of like 50, 25% so that the background looks like its moving */
 
 h1 {
-    padding-top: 20px;
-    justify-content: center;
+    height: 20px;
     text-align: center;
+    z-index: 4;
 }
 
 h2 {
-    padding-top: 40px;
-    justify-content: center;
+    height: 40px;
     text-align: center;
+    position: relative;
+    z-index: 4;
 }
