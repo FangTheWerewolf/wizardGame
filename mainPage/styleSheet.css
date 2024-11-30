@@ -8,8 +8,6 @@ html, body {
     height: 100vh;
 }
 
-
-
 body {
     background-image: url("/Users/christopher/Documents/GitHub/wizardGame/mainPage/wizardBackground.jpg");
     background-repeat: no-repeat;
@@ -30,6 +28,7 @@ body {
     background-size: 100% 100%;
     position: absolute;
     z-index: 5;
+    opacity: 0.1;
     /*For some reason, the image showed up with a dimension of 816 by 0.
     Lesson learned, always check in the console. */
 }
@@ -48,4 +47,8 @@ h2 {
     text-align: center;
     position: relative;
     z-index: 4;
+}
+
+#loginButton {
+
 }
