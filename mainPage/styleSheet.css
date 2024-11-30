@@ -9,21 +9,6 @@ html, body {
 }
 
 
-#staticGIF {
-opacity: 0.5;
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center;
-pointer-events: none;
-z-index: 1
-}
-
-#staticGIF img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    opacity: 0.5;
-}
 
 body {
     background-image: url("/Users/christopher/Documents/GitHub/wizardGame/mainPage/wizardBackground.jpg");
@@ -41,3 +26,14 @@ body {
 /* Add a background image of tv static or grain, then set the dimensions to the image,
  and then add an opacity of like 50, 25% so that the background looks like its moving */
 
+h1 {
+    padding-top: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+h2 {
+    padding-top: 40px;
+    justify-content: center;
+    text-align: center;
+}
