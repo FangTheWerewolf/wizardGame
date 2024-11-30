@@ -10,7 +10,6 @@ html, body {
 
 body {
     background-image: url("/Users/christopher/Documents/GitHub/wizardGame/mainPage/wizardBackground.jpg");
-    background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
     margin: 0;
@@ -22,11 +21,9 @@ body {
 
 #staticGIF {
     background-image: url(staticGlitchGIF.gif);
-    background-repeat: no-repeat;
     width: 100vw;
     height: 100vh;
-    background-size: 100% 100%;
-    position: absolute;
+    background-size: 100% 90%;
     z-index: 5;
     opacity: 0.1;
     /*For some reason, the image showed up with a dimension of 816 by 0.
@@ -37,7 +34,8 @@ body {
  and then add an opacity of like 50, 25% so that the background looks like its moving */
 
 h1 {
-    height: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
     text-align: center;
     z-index: 4;
 }
@@ -47,8 +45,5 @@ h2 {
     text-align: center;
     position: relative;
     z-index: 4;
-}
-
-#loginButton {
-
+    font-family:'Courier New', Courier, monospace;
 }
