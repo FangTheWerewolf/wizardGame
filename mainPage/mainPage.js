@@ -1,9 +1,9 @@
 // JavaScript for main page
+const wizardMaster = wizardMaster;
 
-var size = [window.innerWidth,window.height];
+const user1 = user1;
 
-$(window).resize(function(){
-    window.resizeTo(size[0],size[1]);
-});
+let wallet = 50;
 
-const wizardMaster
+
+
